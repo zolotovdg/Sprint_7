@@ -14,7 +14,7 @@ public class CreateCourierTest extends BaseUtils {
     @DisplayName("Создание курьера")
     @Description("Успешное создание учетной записи курьера в системе")
     public void testCourierCreate() {
-        CreateCourierRequestModel body = new CreateCourierRequestModel("Mamidjon" + UUID.randomUUID(),
+        CreateCourierRequestModel body = new CreateCourierRequestModel("Mamidjon123",
                 "12345", "Mamidjon");
         given()
                 .contentType("application/json")
